@@ -33,7 +33,7 @@ class TourPackageItem extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             PackageImageItem(
-              image: "asset/images/places/makka.png",
+              image: "assets/images/places/makka.png",
               common_day: "14 kun",
               flight_text: "14 Oktabr",
               landing_text: "27 Oktabr",

@@ -60,7 +60,7 @@ class BottomNavBar extends StatelessWidget {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                SvgPicture.asset("asset/icons/shopping-bag.svg"),
+                SvgPicture.asset("assets/icons/shopping-bag.svg"),
                 Text(
                   "Buyurtma berish",
                   style: TextStyle(

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:travelhompage/trevel/pages/homedetails.dart';
+import 'package:travelhompage/trevel/pages/homepages.dart';
 
 GoRouter router = GoRouter(
   initialLocation: '/home',
@@ -17,11 +19,6 @@ GoRouter router = GoRouter(
   ],
 );
 
-HomeDetails() {
-}
-
-HomePage() {
-}
 
 void main() {
   runApp(const MyApp());

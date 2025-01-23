@@ -111,7 +111,7 @@ class TariffsItem extends StatelessWidget {
                             borderRadius: BorderRadius.circular(8),
                           ),
                           child: SvgPicture.asset(
-                              "asset/icons/down-arrow.svg"),
+                              "assets/icons/down-arrow.svg"),
                         ),
                       ),
                     ),

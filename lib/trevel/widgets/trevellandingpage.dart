@@ -39,7 +39,7 @@ class PackageImageItem extends StatelessWidget {
                     borderRadius: BorderRadius.circular(14),
                   ),
                   alignment: Alignment.center,
-                  child: SvgPicture.asset("asset/icons/heart.svg"),
+                  child: SvgPicture.asset("assets/icons/heart.svg"),
                 ),
               ),
               Positioned(
@@ -72,7 +72,7 @@ class PackageImageItem extends StatelessWidget {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    SvgPicture.asset("asset/icons/flight.svg"),
+                    SvgPicture.asset("assets/icons/flight.svg"),
                     Container(
                       padding: EdgeInsets.symmetric(
                         horizontal: 4,
@@ -93,7 +93,7 @@ class PackageImageItem extends StatelessWidget {
                         ),
                       ),
                     ),
-                    SvgPicture.asset("asset/icons/landing.svg"),
+                    SvgPicture.asset("assets/icons/landing.svg"),
                     Container(
                       padding: EdgeInsets.symmetric(
                         horizontal: 4,

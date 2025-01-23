@@ -38,7 +38,7 @@ class TravelDayItem_widget extends StatelessWidget {
             ),
             alignment: Alignment.center,
             child: SvgPicture.asset(
-              "asset/icons/calendar.svg",
+              "assets/icons/calendar.svg",
             ),
           ),
           Column(

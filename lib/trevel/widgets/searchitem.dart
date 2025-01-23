@@ -22,7 +22,7 @@ class SearchItem extends StatelessWidget {
               child: Row(
                 children: [
                   SvgPicture.asset(
-                    "asset/icons/search.svg",
+                    "assets/icons/search.svg",
                     width: 24,
                     height: 24,
                     color: Colors.grey,
@@ -40,7 +40,7 @@ class SearchItem extends StatelessWidget {
                     ),
                   ),
                   SvgPicture.asset(
-                    "asset/icons/filter.svg",
+                    "assets/icons/filter.svg",
                     width: 24,
                     height: 24,
 
@@ -51,7 +51,7 @@ class SearchItem extends StatelessWidget {
           ),
           const SizedBox(width: 16),
           SvgPicture.asset(
-            "asset/icons/notifications.svg",
+            "assets/icons/notifications.svg",
             width: 28,
             height: 28,
           ),

@@ -75,14 +75,14 @@ class HomeDetailsItem extends StatelessWidget {
                       SecondDiaryItem(
                         where: 'Mehmonxona',
                         time: "11:30 am",
-                        image: "asset/images/places/hotel.png",
+                        image: "assets/images/places/dubai.png",
                         description: "New Madina Hotel",
                       ),
                       SizedBox(height: 15),
                       SecondDiaryItem(
                         where: "Ziyoratgoh",
                         time: "8:30 am",
-                        image: "asset/images/places/party.png",
+                        image: "assets/images/places/paris.png",
                         description: "Arofat to’gi",
                       ),
                     ],
@@ -95,17 +95,17 @@ class HomeDetailsItem extends StatelessWidget {
         Positioned(
           top: 112,
           left: 22,
-          child: SvgPicture.asset("asset/icons/ContainerFly.svg"),
+          child: SvgPicture.asset("assets/icons/ContainerFly.svg"),
         ),
         Positioned(
           top: 248,
           left: 22,
-          child: SvgPicture.asset("asset/icons/ContainerMehmonxona.svg"),
+          child: SvgPicture.asset("assets/icons/ContainerMehmonxona.svg"),
         ),
         Positioned(
           bottom: 92,
           left: 22,
-          child: SvgPicture.asset("asset/icons/ContainerZiyorotgoh.svg"),
+          child: SvgPicture.asset("assets/icons/ContainerZiyorotgoh.svg"),
         ),
       ],
     );

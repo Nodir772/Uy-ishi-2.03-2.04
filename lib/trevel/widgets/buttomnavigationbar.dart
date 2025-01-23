@@ -33,7 +33,7 @@ class BottomNavBarSvg extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        SvgPicture.asset("asset/icons/$svg"),
+        SvgPicture.asset("assets/icons/$svg"),
         Text(
           title,
           style: TextStyle(
